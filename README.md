@@ -31,6 +31,7 @@ The hosted server is public, read-only and needs no API key:
 - **Claude Code:** `claude mcp add --transport http ddbx https://api.ddbx.uk/mcp`
 - **Gemini CLI:** `gemini extensions install https://github.com/jonwillington/ddbx-plugin`
 - **Codex:** `codex plugin marketplace add jonwillington/ddbx-plugin`
+- **Smithery:** [`jonathanwillington/ddbx`](https://smithery.ai/servers/jonathanwillington/ddbx)
 
 The repository also carries manifests for the official MCP Registry, Cursor
 Marketplace, Gemini CLI and OpenAI Agent Plugins.
