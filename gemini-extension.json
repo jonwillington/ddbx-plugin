@@ -1,0 +1,10 @@
+{
+  "name": "ddbx",
+  "version": "1.0.0",
+  "description": "Search rated insider dealings across the UK, US, Sweden, Netherlands and US Congress.",
+  "mcpServers": {
+    "ddbx": {
+      "httpUrl": "https://api.ddbx.uk/mcp"
+    }
+  }
+}

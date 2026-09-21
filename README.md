@@ -21,6 +21,20 @@ plugins/ddbx/
 SUBMISSION.md                      listing copy and test cases for the submission portal
 ```
 
+## Connect
+
+The hosted server is public, read-only and needs no API key:
+`https://api.ddbx.uk/mcp`.
+
+- **Claude:** Customize → Connectors → Add custom connector → paste the URL.
+- **Cursor / VS Code:** add an HTTP MCP server named `ddbx` with that URL.
+- **Claude Code:** `claude mcp add --transport http ddbx https://api.ddbx.uk/mcp`
+- **Gemini CLI:** `gemini extensions install https://github.com/jonwillington/ddbx-plugin`
+- **Codex:** `codex plugin marketplace add jonwillington/ddbx-plugin`
+
+The repository also carries manifests for the official MCP Registry, Cursor
+Marketplace, Gemini CLI and OpenAI Agent Plugins.
+
 ## Contract with ddbx-data
 
 The skills name the MCP tools (`search_dealings`, `get_dealing`, `get_company`,

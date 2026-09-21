@@ -1,0 +1,20 @@
+{
+  "name": "ddbx",
+  "displayName": "ddbx — insider dealings",
+  "version": "0.1.0",
+  "description": "Search rated insider share dealings across the UK, US, Sweden, Netherlands and US Congress.",
+  "author": {
+    "name": "ddbx",
+    "email": "jonathanwillington@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "finance",
+    "insider-trading",
+    "director-dealings",
+    "form-4",
+    "congress-trades",
+    "mcp"
+  ],
+  "logo": "assets/logo.png"
+}

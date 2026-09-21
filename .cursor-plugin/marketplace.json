@@ -1,0 +1,18 @@
+{
+  "name": "ddbx",
+  "owner": {
+    "name": "ddbx",
+    "email": "jonathanwillington@gmail.com"
+  },
+  "metadata": {
+    "description": "Rated insider share dealings across five markets",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "ddbx",
+      "source": "./plugins/ddbx",
+      "description": "Search rated insider dealings from official disclosure feeds"
+    }
+  ]
+}
