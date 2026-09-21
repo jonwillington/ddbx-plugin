@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.jonwillington/ddbx",
+  "title": "ddbx — insider dealings",
+  "description": "Search rated insider share dealings from UK directors, US Form 4 filers, Swedish and Dutch PDMRs, and members of the US Congress.",
+  "version": "1.0.0",
+  "websiteUrl": "https://ddbx.uk/mcp",
+  "repository": {
+    "url": "https://github.com/jonwillington/ddbx-plugin",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.ddbx.uk/mcp"
+    }
+  ]
+}

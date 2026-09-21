@@ -1,0 +1,13 @@
+interface:
+  display_name: "Market scan"
+  short_description: "The notable insider dealings across a market this week"
+  brand_color: "#1E1506"
+  default_prompt: "What were the strongest insider buys in the UK and US this week?"
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ddbx"
+      description: "ddbx insider dealings (read-only, no auth)"
+      transport: "streamable_http"
+      url: "https://api.ddbx.uk/mcp"

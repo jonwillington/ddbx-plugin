@@ -1,0 +1,44 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ddbx",
+  "version": "0.1.0",
+  "description": "Insider share dealings from UK directors, US Form 4 filers, Swedish and Dutch PDMRs and members of the US Congress, rated by ddbx.",
+  "author": {
+    "name": "ddbx",
+    "url": "https://ddbx.uk"
+  },
+  "homepage": "https://ddbx.uk/mcp",
+  "keywords": [
+    "insider trading",
+    "director dealings",
+    "form 4",
+    "pdmr",
+    "congress trades",
+    "stocks",
+    "finance"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "ddbx",
+        "shortDescription": "Insider share dealings, rated",
+        "longDescription": "ddbx tracks the share purchases and sales company insiders are required to disclose: directors of UK-listed companies, Form 4 filers at US companies, PDMRs in Sweden and the Netherlands, and members of the US Congress. Filings arrive from the official feeds within minutes and the notable ones are rated significant, noteworthy, minor or routine. Ask what directors bought today, who has been buying a company you follow, or what Congress has traded in a ticker. Every answer links to the filing on ddbx.",
+        "developerName": "ddbx",
+        "category": "Finance",
+        "capabilities": ["Read"],
+        "websiteURL": "https://ddbx.uk",
+        "privacyPolicyURL": "https://ddbx.uk/privacy",
+        "termsOfServiceURL": "https://ddbx.uk/terms",
+        "defaultPrompt": [
+          "What did UK directors buy today?",
+          "Show me recent insider buying at Tesco.",
+          "Which US insiders made significant open-market purchases this week?",
+          "What have members of Congress traded in NVDA lately?"
+        ],
+        "brandColor": "#1E1506",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

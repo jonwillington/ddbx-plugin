@@ -1,0 +1,13 @@
+interface:
+  display_name: "Daily recap"
+  short_description: "Today's insider dealings, summarised by ddbx"
+  brand_color: "#1E1506"
+  default_prompt: "What happened in UK director dealings today?"
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ddbx"
+      description: "ddbx insider dealings (read-only, no auth)"
+      transport: "streamable_http"
+      url: "https://api.ddbx.uk/mcp"

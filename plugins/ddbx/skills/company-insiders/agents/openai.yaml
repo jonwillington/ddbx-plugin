@@ -1,0 +1,13 @@
+interface:
+  display_name: "Company insiders"
+  short_description: "Recent insider buying and selling at one company"
+  brand_color: "#1E1506"
+  default_prompt: "Have any directors bought shares in this company recently?"
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "ddbx"
+      description: "ddbx insider dealings (read-only, no auth)"
+      transport: "streamable_http"
+      url: "https://api.ddbx.uk/mcp"
